@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			body{margin-top: 100px;}
+			.banner{
+				width: 1080px;
+				height:500px;
+				margin: 0px auto;
+				overflow: hidden;
+				position: relative;
+			}
+			.lb{
+				width: 400%;
+				height: 100%;
+				animation: str 20s linear infinite;
+				position: absolute;
+			}
+			.lb:hover{
+				animation-play-state: paused;
+				/*鼠标经过时暂停循环:paused   开始循环:running*/
+			}
+			.lb a{
+				width: 100%;
+			}
+			.lb img{
+				width: 25%; height: 100%;
+				left: 0;
+				float: left;
+				display: inline-block;
+				
+			}
+			@keyframes str{	
+				0%{left: 0;}
+				10%{left: 0;}
+				30%{left:-100%;}
+				40%{left: -100%;}
+				60%{left: -200%;}
+				70%{left: -200%;}
+				90%{left: -300%;}
+				98%{left: -300%;}
+				100%{left: 0%;}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="banner">
+			<div class="lb">
+			  	<a href="#"> <img src="img/lb.png"> </a>
+				<a href="#"> <img src="img/lb1.png"> </a>
+				<a href="#"> <img src="img/lb3.png"> </a>
+				<a href="#"> <img src="img/lb4.png"> </a>
+				<a href="#"> <img src="img/lb.png"> </a>
+			</div>
+		</div>
+	</body>
+</html>

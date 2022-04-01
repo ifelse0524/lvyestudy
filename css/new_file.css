@@ -1,0 +1,494 @@
+*{margin: 0px auto;padding: 0px;}
+/* 定义头部导航 */
+.tp_box{
+	height: 95px;
+	background: -webkit-linear-gradient(right,#FBE8EA 0%,#DEF4FF 100%);
+}
+/* 定义logo */
+.logo{
+	margin-left: 175px;
+}
+/* 定义一级导航样式 */
+.home{}
+.home ul{
+	position: absolute;
+	list-style-type:none;
+	top:20px;
+	right:223px;
+	float: right;
+}
+.home li{
+	display:inline;
+	font-size: 14px;
+	margin: 0px -3px;
+}
+.home a{
+	text-decoration: none;
+	color: black;
+	padding: 20px 22px;
+	
+	
+}
+/* 定义一级导航下方颜色块 */
+.str1{
+	width: 72px;
+	height: 4px;
+	background-color: #FF9595;
+	margin-left: 463px;
+}
+.str2{
+	width: 100px;
+	height: 4px;
+	background-color: #A8E957;
+	margin-left: 535px;
+	margin-top: -4px;
+}
+.str3{
+	width: 100px;
+	height: 4px;
+	background-color: #8DCFFB;
+	margin-top: -4px;
+	margin-left: 635px;
+}
+.str4{
+	width: 100px;
+	height: 4px;
+	background-color: #FFCB96;
+	margin-top: -4px;
+	margin-left: 733px;
+}
+.str5{
+	width: 99px;
+	height: 4px;
+	background-color: #86F5F0;
+	margin-top: -4px;
+	margin-left: 833px;
+}
+.str6{
+	width: 99px;
+	height: 4px;
+	background-color: #FFC2D8;
+	margin-top: -4px;
+	margin-left: 930px;
+}
+.str7{
+	width: 99px;
+	height: 4px;
+	background-color: #E4B6FF;
+	margin-top: -4px;
+	margin-left: 1029px;
+}
+/* 定义鼠标经过一级导航时样式 */
+.a1 a:hover{
+	background-color: #FF9595;
+}
+.a2 a:hover{
+	background-color: #A8E957;
+}
+.a3 a:hover{
+	background-color: #8DCFFB;
+}
+.a4 a:hover{
+	background-color: #FFCB96;
+}
+.a5 a:hover{
+	background-color: #86F5F0;
+}
+.a6 a:hover{
+	background-color: #FFC2D8;
+}
+.a7 a:hover{
+	background-color: #E4B6FF;
+}
+/* 定义轮播图样式 */
+.img_box{
+	width: 1000px;
+	height: 300px;
+	background-color: #000000;
+}
+.banner{
+				width: 1000px;
+				height:300px;
+				margin: 0px auto;
+				overflow: hidden;
+				position: relative;
+			}
+			.img_box{
+				width: 200%;
+				height: 100%;
+				animation: str 20s linear infinite;
+				position: absolute;
+			}
+			.img_box:hover{
+				animation-play-state: paused;
+				/*鼠标经过时暂停循环:paused   开始循环:running*/
+			}
+			.img_box a{
+				width: 100%;
+			}
+			.img_box img{
+				width: 50%; height: 100%;
+				left: 0;
+				float: left;
+				display: inline-block;
+				
+			}
+			@keyframes str{
+				0%{left: 0;}
+			    30%{left: -100%;}
+				60%{left: -100%;}
+				80%{left: 0%;}
+			}
+/* 定义轮播图两边按钮 */
+.le.ri{
+
+}
+/* 左边按钮 */
+.le{
+	width: 44px;
+	height: 60px;
+	background-color: #86F5F0;
+	margin: -220px 65px;
+}
+.le img{
+	 width: 30px;
+	 height: 30px;
+	 margin-top: 15px;
+	 margin-left: 5px;
+	 background-color: #fffffff;
+}
+/* 右边按钮 */
+.ri{
+	width: 44px;
+	height: 60px;
+	background-color: #86F5F0;
+	margin-top: 160px;
+	margin-right: 65px;
+}
+.ri img{
+	width: 30px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 5px;
+	background-color: #fffffff;
+}
+/* 定义在线教程的标题 */
+.bt_1{
+	width: 250px;
+	height: 33px;
+	background-color: #6AAFFB;
+	margin-top: 210px;
+	margin-left: auto;
+	position: relative;
+}
+.l{
+	width: 50px;
+	height: 49px;
+	margin: -8px -50px;
+}
+.r{
+	width: 50px;
+	height: 49px;
+	margin-right: -50px;
+	margin-top: -8px;
+	float: right;
+}
+/* 文字样式 */
+.zxjc{
+	color: white;
+	font-size: 20px;
+	left: 80px;
+	top: 5px;
+	position: absolute;
+}
+/* 标题下方文字 */
+.bt_1 p{
+    font-size: 13px;
+	color: #A1A1A1;
+}
+/* 定义在线教程的内容 */
+.jc{
+	width: 1000px;
+	height: 380px;
+	margin-top: 90px;
+	/* background-color: red; */
+}
+.jc_box{
+	width: 230px;
+	height: 150px;
+	background-color: #6AAFFB;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 38px;
+	/* margin-top: 10px; */
+}
+.jc img{
+	width: 230px;
+	height: 150px;
+}
+.jc span{
+	width: 16px;
+	height: 16px;
+	color: white;
+	font-size: 14px;
+	padding: 1px 3px;
+	background-color: #C0C0C0;
+}
+.jc h4{
+	position: absolute;
+	margin-top: -40px;
+	text-align: left;
+	line-height: 40px;
+	font-size: 14px;
+	background-color: white;
+	opacity: 0.9;
+	width: 230px;
+	height: 36px;
+	color: #000000;
+}
+.jc h4:hover{
+	color: #6AAFFB;
+}
+/* 系列图书样式 */
+.bt_2{
+	margin-top: -190px;
+}
+.book_box{
+	width: 1000px;
+	height: 420px;              /* 大盒子......主内容区 */
+	background-color: white;
+	margin-top: 100px;
+}
+.bk_box{
+	width: 320px;
+	height: 180px;
+	background-color: white;     /* 主内容区的模块 */
+	float: left;
+	margin-bottom: 60px;
+	margin-right: 13px;
+}
+.bk_imgbox{
+	width: 100px;
+	height: 113px;
+	background-color: white;     /* 书籍图片盒子 */
+	margin-left: 0px;
+	margin-top: 10px;
+}
+/* 书籍图片大小 */
+.bk_imgbox img{
+	width: 100px;
+}
+/* 图书标题 */
+.bk_bt{
+	width: 200px;
+	height: 40px;
+	background-color: white;
+	margin-top: -110px;
+	margin-left: 100px;
+	
+}
+.bk_bt a{
+	text-decoration: none;
+	color: #000000;
+}
+.bk_bt a:hover{
+	color: #3377FF;
+}
+.bk_bt h4{
+	font-size: 14px;
+}
+/* 书籍信息 */
+.bk_box p{
+	font-size: 12px;
+	margin-top: 10px;
+	margin-left: 110px;
+	color: #666666;
+	border-bottom: 1px solid #666666;
+}
+/* 书籍介绍 */
+.bk_box span{
+	font-size: 12px;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 110px;
+}
+/* 书籍下方链接 */
+.bk_lj{
+	margin-top: 55px;
+	margin-left: 50px;
+	font-size: 12px;
+}
+.bk_lj a{
+	text-decoration: none;
+	color: #3377FF;
+	margin-right: 30px;
+}
+.bk_lj a:hover{
+	color: #F45252;
+}
+/* 读者评价 */
+.dz_pj{
+	width: 1000px;
+	height: 466px;
+	background-color: white;
+	margin-top: 70px;
+}
+/* 网站简介 */
+.wzjj{
+	width: 210px;
+	height: 315px;
+	background-color: white;
+	float: left;
+}
+.wzjj h4{
+	border-bottom: 1px solid #666666;
+	line-height: 40px;
+	margin-top: 20px;
+}
+.wzjj p{
+	font-size: 14px;
+	line-height: 23px;
+}
+/* 读者标题 */
+.dz_bt{
+	width: 750px;
+	height: 35px;
+	background-color: white;
+	border-bottom: 1px solid #E1E1E1;
+	position: absolute;
+	margin-left: 250px;
+}
+.dz_bt h2{
+	width: 5px;
+	height: 25px;
+	background-color: #69BCF3;
+	/* margin-left: 50px; */
+	display: inline-block;
+}
+.dz_bt span{
+	font-weight: bold;
+}
+/* 具体用户评价 */
+.pj{
+	width: 750px;
+	height: 400px;
+	background-color: white;
+	float: right;
+}
+.pj_bk{
+	margin-top: 90px;
+}
+/* 用户信息 */
+.user_box{
+	margin-top: -354px;
+	margin-left: -570px;
+}
+.user{
+	width: 80px;
+	height: 100px;
+	background-color: white;
+	margin-top: 1px;
+}
+.user img{
+	position: relative;
+	padding-top: 20px;
+}
+.user span{
+	position: absolute;
+	margin-top: 65px;
+	margin-left: -32px;
+	font-size: 12px;
+	color: #F45252;
+}
+/* 用户评论 */
+.pl{
+	width: 630px;
+	height: 80px;
+	border: 1px solid #E1E1E1;
+	float: left;
+	margin-left: 70px;
+	margin-top: -60px;
+}
+.pl p{
+	font-size: 14px;
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 20px;
+}
+/* 友情连接 */
+.yq{
+	width: 978px;
+	height: 30px;
+	padding: 6px 10px;
+	border: 1px solid #E1E1E1;
+	margin-top: 50px;
+}
+.yq img{
+	width: 52px;
+	height: 100px;
+	padding-top: 8px;
+	margin-top: -24px;
+	margin-left: -19px;
+}
+.yq span{
+	position: absolute;
+	margin-top: -10px;
+	margin-left: -40px;
+	font-size: 14px;
+	color: white;
+}
+.yq a{
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 80px;
+	text-decoration: none;
+	color: #000000;
+}
+.yq a:hover{
+	color: #69BCF3;
+}
+/* 底部 */
+.db_box{
+	width: 1226px;
+	height: 120px;
+	background-color: white;
+	/* position: relative; */
+	margin: 50px 0px;
+}
+.db_gy{
+	width: 1000px;
+	height: 36px;
+	background-color: white;
+	padding-left: 500px;
+}
+.db_gy a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+	margin:0px 5px;
+}
+.db_gy a:hover{
+	color: #69BCF3;
+}
+.db_span{
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	margin-left: 475px;
+}
+.db_span a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+	font-weight: lighter;
+	margin-left: 160px;
+}
+.db_span a:hover{
+	color: #69BCF3;
+}
+.db_span p{
+	font-weight: lighter;
+	font-size: 12px;
+	margin-left: 15px;
+}

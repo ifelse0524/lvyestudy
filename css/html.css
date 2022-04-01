@@ -1,0 +1,311 @@
+*{margin: 0px auto;padding: 0px;}
+body{
+	background-color: #F9F9F9;
+}
+/* 副级头部导航 */
+.fj_dh{
+	/* width: 1226px; */
+	height: 60px;
+	background-color: #FFFFFF;
+}
+.logo{
+	padding-left: 125px;
+}
+/* 定义一级导航样式 */
+.home{}
+.home ul{
+	position: absolute;
+	list-style-type:none;
+	top:20px;
+	right:320px;
+	float: left;
+}
+.home li{
+	display:inline;
+	font-size: 16px;
+	margin: 0px -3px;
+}
+.home a{
+	text-decoration: none;
+	color: #666666;
+	padding: 18px 22px;
+}
+.home a:hover{
+	border-bottom: 2px solid #29CA6F;
+	color: #29CA6F;
+}
+/* 主要内容盒子 */
+.dad_box{
+	width: 820px;
+	height: 2500px;
+	background-color: white;
+	margin-top: 30px;
+	margin-left: 125px;
+}
+/* 书籍展示 */
+.sj_zs{
+	width: 780px;
+	height: 140px;
+	background-color: #FFFFFF;
+	padding: 20px 20px;
+	position: absolute;
+	top: 90px;
+	left: 125px;
+}
+.sj_zs span{
+	float: right;
+	position: absolute;
+	font-size: 14px;
+	margin-left: 637px;
+	color: white;
+}
+/* 书籍标签 */
+#bq{
+	float: right;
+	margin-top: -20px;
+	width: 45px;
+	height: 80px;
+} 
+/* 书籍标题 */
+.sj_bt{
+	width: 600px;
+	height: 140px;
+	background-color: #FFFFFF;
+	float: right;
+	position: absolute;
+	margin-left: 130px;
+	margin-top: -145px;
+}
+.sj_bt h1{
+	font-size: 20px;
+	padding-bottom: 8px;
+}
+/* 书籍简介 */
+.sj_bt p{
+	font-size: 14px;
+	color: #666666;
+}
+/* 内容主体盒子 */
+.zt_box{
+	width: 780px;
+	height: 2476px;
+	/* background-color: #8DCFFB; */
+	margin-top: 240px;
+}
+/* 主内容标题名字 */
+.zt_box-name{
+	width: 660px;
+	height: 36px;
+	background-color: white;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+}
+/* 浏览量 */
+.view{
+	width: 120px;
+	height: 36px;
+	background-color: white;
+	float: right;
+	text-align: center;
+	font-size: 14px;
+}
+/* 以下list均为每块具体内容的样式 */
+.list{
+	width: 780px;
+	height: 160px;
+	background-color: white;
+	/* float: left; */
+	padding-top: 30px;
+}
+.list1{
+	width: 780px;
+	height: 125px;
+	background-color: white;
+	/* float: left; */
+	/* padding-top: 30px; */
+}
+.list2{
+	width: 780px;
+	height: 227px;
+	background-color: white;
+	/* float: left; */
+	/* padding-top: 30px; */
+}
+.list3{
+	width: 780px;
+	height: 397px;
+	background-color: white;
+	/* float: left; */
+	/* padding-top: 30px; */
+}
+.list4{
+	width: 780px;
+	height: 261px;
+	background-color: white;
+	/* float: left; */
+	/* padding-top: 30px; */
+}
+.list5{
+	width: 780px;
+	height: 295px;
+	background-color: white;
+	/* float: left; */
+	/* padding-top: 30px; */
+}
+.list6{
+	width: 780px;
+	height: 193px;
+	background-color: white;
+	/* float: left; */
+	/* padding-top: 30px; */
+}
+.list7{
+	width: 780px;
+	height: 193px;
+	background-color: white;
+	/* float: left; */
+	/* padding-top: 30px; */
+}
+.list8{
+	width: 780px;
+	height: 465px;
+	background-color: white;
+	/* float: left; */
+	/* padding-top: 30px; */
+}
+.list9{
+	width: 780px;
+	height: 140px;
+	background-color: white;
+	/* float: left; */
+	/* padding-top: 30px; */
+}
+/* 每块具体内容标题 */
+.fbt{
+	width: 780px;
+	height: 42px;
+	background-color: #F9F9F9;
+	position: relative;
+	/* top: 37px; */
+	/* margin-top: 100px; */
+}
+/* 标题前数字序号 */
+.fbt img{
+	width: 50px;
+	float: left;
+	margin-top: -10px;
+}
+/* 数字序号样式 */
+#number{
+	margin-top: -5px;
+}
+/* 数字序号的具体数字 */
+.fbt span{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	color: white;
+}
+/* 副标题样式 */
+.fbt h3{
+	position: absolute;
+	top: 10px;
+	left: 60px;
+	font-size: 18px;
+}
+/* 内容目录表 */
+.ml{
+	position: relative;
+	/* top: 40px; */
+	left: -20px;
+	float: right;
+}
+.ml span{
+	color: #29CA6F;
+}
+.ml ul{
+	list-style-type:none;
+	margin-top: 5px;
+}
+.ml li{
+	width: 735px;
+	height: 34px;
+	background-color: #FFFFFF;
+}
+.ml li:hover{
+	background-color: #F9F9F9;
+}
+.ml a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 15px;
+}
+.ml a:hover{
+	color: #29CA6F;
+}
+/* 浏览量 */
+#lll{
+	width: 80px;
+	height: 34px;
+	float: right;
+	text-align: center;
+	color: #29CA6F;
+}
+/* 底部 */
+.db_box{
+	width: 1226px;
+	height: 120px;
+	background-color: white;
+	/* position: relative; */
+	margin: 50px 0px;
+}
+.db_gy{
+	width: 1000px;
+	height: 36px;
+	background-color: white;
+	padding-left: 500px;
+}
+.db_gy a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+	margin:0px 5px;
+}
+.db_gy a:hover{
+	color: #69BCF3;
+}
+.db_span{
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	margin-left: 475px;
+}
+.db_span a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+	font-weight: lighter;
+	margin-left: 160px;
+}
+.db_span a:hover{
+	color: #69BCF3;
+}
+.db_span p{
+	font-weight: lighter;
+	font-size: 12px;
+	margin-left: 15px;
+}
+/* 未开发内容 */
+.zt_box-e{
+	width: 780px;
+	height: 2px;
+	margin-top: 240px;
+}
+.dad_box-e{
+	width: 820px;
+	height: 10px;
+	background-color: white;
+	margin-top: 30px;
+	margin-left: 125px;
+}

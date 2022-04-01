@@ -1,0 +1,112 @@
+*{margin: 0px;padding: 0px;}
+/* 头部导航样式 */
+.head-nva{
+	height: 48px;
+	background-color: #000000;
+}
+/* 导航logo */
+.head-nva img{
+	width: 168px;
+	height: 48px;
+	margin-left: 120px;
+}
+/* 导航列表样式 */
+.head-nva ul{
+	float: right;
+	margin-right: 380px;
+	margin-top: 14px;
+}
+.head-nva li{
+	display: inline-block;
+	
+}
+.head-nva a{
+	text-decoration: none;
+	color: #A1A1A1;
+	padding: 0px 20px;
+}
+.head-nva a:hover{
+	color: #3ED3DA;
+}
+/* 页面主体样式 */
+.main{
+	background: -webkit-linear-gradient(right,#51C2A4 30%,#50ACA2 90%);
+	height: 1700px;
+}
+/* 标题样式 */
+.title{
+	
+}
+.title h1{
+	color: #FFFFFF;
+	font-size: 26px;
+	position: absolute;
+	margin: 100px 620px 15px;
+	font-weight: normal;
+}
+/* 标题下方简介 */
+.title p{
+	padding-top: 160px;
+	padding-left: 520px;
+	color: #FFFFFF;
+}
+/* 篇幅内容 */
+.item{
+	width:1170px;
+	height: 415px;
+	margin-left: 140px;
+	margin-top: 80px;
+}
+/* 篇幅标题 */
+.item h3{
+	margin-left: 500px;
+	font-size: 24px;
+	font-weight: normal;
+	color: #DCF1ED;
+}
+/* 篇幅详细内容 */
+.icon{
+	display: inline-block;
+	margin-top: 50px;
+	padding-right: 84px;
+}
+.icon h4{
+    color: #FFFFFF;
+	font-size: 24px;
+	font-weight: normal;
+	padding-top: 60px;
+	text-align: center;
+}
+/* 上方盒子内容样式 */
+.op{
+	width: 300px;
+	height: 135px;
+	background-color: #76CDBC;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.op a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.op a:hover{
+	color: #FF9595;
+}
+.op img{
+	width: 44px;
+	height: 45px;
+	float: right;
+}
+/* 下方盒子内容样式 */
+.oi{
+	width: 300px;
+	height: 110px;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.oi p{
+	color: #666666;
+	font-size: 16px;
+	padding: 25px;
+}
